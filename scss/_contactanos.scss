@@ -1,0 +1,53 @@
+iframe {
+    margin-left: 20px;
+}
+
+.tarjeta-contacto{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "info-adicional formulario";
+
+    .formulario{
+        grid-area: formulario;
+        text-align: right;
+        padding-right: 3vh ;
+    }
+    .info-adicional{
+        grid-area: info-adicional ;
+        text-align: center;
+        
+        .redes-contacto{
+            display: flex;
+           padding-left: 28vh;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .tarjeta-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "info-adicional formulario";
+    
+        .formulario{
+            grid-area: formulario;
+            text-align: right;
+            padding-right: 3vh ;
+        }
+        .info-adicional{
+            grid-area: info-adicional ;
+            text-align: center;
+            
+            .redes-contacto{
+                display: flex;
+               padding-left: 10vh;
+            }
+        }
+    }
+
+}
+
+
+
+

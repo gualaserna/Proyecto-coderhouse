@@ -1,0 +1,41 @@
+.noticias__contenedor {
+    display: grid;
+    gap: 2px;
+    padding: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        " noticia1 noticia2 noticia3"
+        " noticia4 noticia5 noticia6";
+}
+//* las noticias van a llevar imagenes con informacion con overflow hidden y transformacion para que cuando se haga hover se agrande y se pueda leer*//
+.noticia1 {
+    grid-area: noticia1;
+height: 32vh;
+background-color: aqua;
+}
+.noticia2 {
+    grid-area: noticia2;
+height: 32vh;
+background-color: green;
+}
+.noticia3 {
+    grid-area: noticia3;
+height: 32vh;
+background-color: blue;
+}
+.noticia4 {
+    grid-area: noticia4;
+height: 32vh;
+background-color: red;
+}
+.noticia5 {
+    grid-area: noticia5;
+height: 32vh;
+background-color: lightcoral;
+}
+.noticia6 {
+    grid-area: noticia6;
+   height: 32vh; 
+   background-color: sandybrown;
+}

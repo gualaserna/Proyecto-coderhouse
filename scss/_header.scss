@@ -1,0 +1,104 @@
+#header {
+    height: 150px;
+    :hover{
+        color: black;
+    }
+    img:hover {
+        transform: skew(10deg, 5deg);
+    }
+
+    .redes {
+        display: flex;
+        justify-content: flex-end;
+        height: 8px;
+        padding-right: 5px;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 5px;
+
+            li {
+                padding-right: 5px;
+                margin-top: -2vh;
+                animation-duration: 4s;
+                animation-name: aparecer;
+                a {
+                    :visited {
+                        color: black;
+                    }
+
+                    :link {
+                        color: black;
+                    }
+
+                    :hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav {
+        li {
+            a {
+                :link {
+                    color: #ffffff;
+                }
+
+                :visited {
+                    color: #ffffff;
+                }
+
+                :hover {
+                    color: #2d3436;
+                }
+
+                :active {
+                    transform: scale(2);
+                }
+            }
+        }
+
+        .nav__ul {
+            display: flex;
+            justify-content: flex-end;
+            background-image: linear-gradient(to bottom, #d63031, #f95455);
+            font-family: "Montserrat", sans-serif;
+            padding: 10px;
+            margin: 5px;
+            padding-left: 46em;
+
+            .nav__ul-li {
+                border-right: solid 2px white;
+                padding: 0 1vh 0 1vh;
+                text-decoration: none;
+            }
+        }
+        .nav__responsive{
+            display: none;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 480px)
+{
+    body{
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    .nav__responsive{
+        display: flex;
+        background-image: linear-gradient(to bottom, #d63031, #f95455);
+    }
+    .li__responsive{
+        background-image: linear-gradient(to bottom, #d63031, #f95455);
+    }
+
+    .menu_responsive{
+        display: none ;
+    }
+}

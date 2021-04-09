@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    a {
+        color: white;
+        :hover {
+            color: black;
+        }
+    }
+}
+
+
+p {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+$colors:(facebook:#3b5998, twitter:#55acee, instagram:#fd5949);
+
+@each $name-color, $color in $colors {
+    .fa-#{$name-color} {
+        color: $color;
+    }
+ }
+ 
+
+.fab {
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+
+
+
+
+

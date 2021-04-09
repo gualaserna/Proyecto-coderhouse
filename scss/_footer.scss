@@ -1,0 +1,43 @@
+footer {
+    background-image: linear-gradient(to bottom, #7f8181, #a1a3a3);
+    height: 110px;
+
+    p {
+        color: #566573;
+        text-transform: uppercase;
+    }
+    li {
+        a {
+            :link {
+                color: white;
+            }
+            :visited {
+                color: white;
+            }
+            :hover {
+                color: #2d3436;
+            }
+        }
+    }
+    .footer-nav__ul {
+        float: right;
+        padding-right: 2vh;
+    }
+}
+
+.footer-nav__ul {
+    float: right;
+    padding-right: 2vh;
+}
+
+
+
+@media screen and (max-width: 480px){
+    
+    footer{
+        height: 4vh;
+    .footer-nav__ul{
+        display: none;
+    }
+}
+}

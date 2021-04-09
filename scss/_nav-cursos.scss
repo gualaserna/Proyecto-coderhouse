@@ -1,0 +1,52 @@
+.nav-cursosgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    padding: 5px;
+
+    .nav-cursos1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #40739e;
+        padding-right: 5px;
+        height: 30px;
+        font-family: "Montserrat", sans-serif;
+
+        .item-cursos{
+            align-items: center;
+        
+        }
+
+    }
+
+    .nav-cursos2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #40739e;
+        height: 30px;
+        padding-top: 6px;
+        font-family: "Montserrat", sans-serif;
+
+        li {
+            a {
+                :link {
+                    color: white;
+                }
+                :visited {
+                    color: white;
+                }
+                :hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .nav-cursosgrid{
+    display: none;
+}
+
+    
+}
