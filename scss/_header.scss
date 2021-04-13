@@ -76,10 +76,12 @@
                 text-decoration: none;
             }
         }
-        .nav__responsive{
-            display: none;
-        }
+       
     }
+    
+}
+.nav__responsive{
+    display: none;
     
 }
 
@@ -97,8 +99,7 @@
     .li__responsive{
         background-image: linear-gradient(to bottom, #d63031, #f95455);
     }
-
-    .menu_responsive{
-        display: none ;
+    .nav{
+        display: none;
     }
 }

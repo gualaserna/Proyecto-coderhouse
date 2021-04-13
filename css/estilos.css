@@ -91,7 +91,7 @@
   text-decoration: none;
 }
 
-#header .nav .nav__responsive {
+.nav__responsive {
   display: none;
 }
 
@@ -111,7 +111,7 @@
     background-image: -webkit-gradient(linear, left top, left bottom, from(#d63031), to(#f95455));
     background-image: linear-gradient(to bottom, #d63031, #f95455);
   }
-  .menu_responsive {
+  .nav {
     display: none;
   }
 }
@@ -156,8 +156,8 @@ p {
 .nav-cursosgrid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  -ms-grid-columns: 41.5em 41.5em;
+      grid-template-columns: 41.5em 41.5em;
   gap: 5px;
   padding: 5px;
 }
@@ -401,6 +401,7 @@ iframe {
   display: -ms-grid;
   display: grid;
   gap: 2px;
+  padding: 5px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: 1fr 1fr;
