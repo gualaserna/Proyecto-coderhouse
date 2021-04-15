@@ -36,6 +36,17 @@ footer {
     
     footer{
         height: 4vh;
+        li{
+            a{
+             :link {
+                color: black;
+            }
+            :visited {
+                color: black;
+            }
+            :hover {
+                color: black;
+            }
     .footer-nav__ul{
         display: none;
     }
